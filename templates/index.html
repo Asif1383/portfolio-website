@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{%block body%}
+{%include 'header.html'%}
+<div class="row info-section">
+    <div class="col-md-6">
+        <h1>Hello I'm Asif Khan</h1>
+        <h3>I am a Python Developer </h3>
+         <a type="button" class="btn btn-dark btn-lg info-button" href="{{url_for('projects')}}"><i class="fa-brands fa-medapps"></i> Projects</a>
+         <a type="button" class="btn btn-dark btn-lg info-button" href="mailto:pycodelang123@gmail.com"><i class="fa-solid fa-hand-dots"></i> Hire-me</a>
+
+    </div>
+    <div class="col-md-6" >
+        <img class="asif-image photo" src="https://img.freepik.com/free-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?w=500" >
+
+    </div>
+
+</div>
+{%include 'footer.html'%}
+{%endblock%}

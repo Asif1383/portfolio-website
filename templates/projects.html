@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{%block body %}
+{%include 'header.html'%}
+<div id="projects" class="projects carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="project-blog1 project-blog carousel-item active">
+    <h1>Learn Alag</h1>
+    <img class="project-image" src="https://media.sproutsocial.com/uploads/2019/09/how-to-write-a-blog-post.svg">
+      <h4>This project will update ,read and write the blogs</h4>
+      <a href="https://github.com/Asif1383/Blog.git">Go to the project </a>
+    </div>
+  </div>
+    <a class="carousel-control-prev" href="#testimonials-slide" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="slide-button sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#testimonials-slide" role="button" data-slide="next">
+    <span class=" carousel-control-next-icon" aria-hidden="true"></span>
+    <span  class="slide-button sr-only">Next</span>
+  </a>
+</div>
+{%include 'footer.html'%}
+{%endblock%}
